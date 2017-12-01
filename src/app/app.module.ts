@@ -7,7 +7,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { SocketIoModule, SocketIoConfig} from 'ng-socket-io';
-const config:SocketIoConfig = {url: 'http://10.107.147.190:3001',options:{}}
+// const config:SocketIoConfig = {url: 'http://10.247.0.190:3000',options:{}}
+const config:SocketIoConfig = {url: 'http://10.107.147.190:3000',options:{}}
 
 @NgModule({
   declarations: [
